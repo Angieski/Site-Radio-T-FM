@@ -2088,6 +2088,7 @@ require_once 'conexaoLocal.php';
                         }
                         setInterval(buscaApi, 15000);
 
+
                         // Controle de volume exponencial
                         function exponentialVolume(value) {
                             const minp = 0;
